@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px)  {
+    html {
+        margin: 0;
+    }
+    body {
+        background-repeat: repeat;
+        height: auto;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .call-us {
+        margin-top: 20px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .right-sec {
+        margin-top: 50px;
+    }
+    .box2{
+        transform: translateX(0);
+        margin-bottom: 50px;
+    }
+}
